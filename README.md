@@ -26,9 +26,11 @@ Note: The evaluation metric from this practice problem is F1-Score.
 ## Running the notebook
 
 There are many different ways that the notebook can be run and in this section we will go through all those methods so that you can deploy the notebook and have the best experience in trying to replicate our results and making conclusions around our findings 
+
 ### Dependencies 
 
 Please ensure that one or more of the following is installed on to whatever enviroment you want to run the notebook on first in order to not recieve any errors:
+
 -
 -
 -
