@@ -51,7 +51,7 @@ It would be most advisable to use [VS Code](https://code.visualstudio.com/docs/d
 
 Whenever you open a Windows Explorer folder, you’ll see an address bar similar to that in a web browser. By default, it shows the path of the current folder. In this address bar, you can enter in text and navigate to other directories manually.
 
-Once you’ve entered your specific folder with Windows Explorer, you can simply press `ALT` + `D`, type in `cmd` and press Enter. You can then type `jupyter notebook` to launch Jupyter Notebook within that specific folder.
+Once you’ve entered your specific folder with Windows Explorer, you can simply press `ALT` + `D`, type in `cmd` and press `Enter`. You can then type `jupyter notebook` to launch Jupyter Notebook within that specific folder.
 
 <img src= "https://miro.medium.com/max/1400/0*5l8imTsZnIvqFDk4.gif" alt="Windows Explorer" title="Windows Explorer"/> 
 
