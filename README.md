@@ -29,11 +29,19 @@ There are many different ways that the notebook can be run and in this section w
 
 ### Dependencies 
 
-Please ensure that one or more of the following is installed on to whatever enviroment you want to run the notebook on first in order to not recieve any errors:
+Please ensure that the following is installed on to whatever enviroment you want to run the notebook on first in order to not recieve any errors:
 
--
--
--
+- python 3 ([More information Available here](https://youtu.be/VWgs_iTojoA))
+- NumPy ([More information Available here](https://numpy.org/install/))
+- Pandas ([More information Available here](https://pandas.pydata.org/docs/getting_started/install.html))
+- XGBoost ([More information Available here](https://xgboost.readthedocs.io/en/latest/install.html))
+- Scikit-learn ([More information Available here](https://scikit-learn.org/stable/install.html))
+- TensorFlow ([More information Available here](https://www.tensorflow.org/install))
+- emoji ([More information Available here](https://pypi.org/project/emoji/))
+- Nltk ([More information Available here](https://www.nltk.org/install.html))
+- Internet connection with firewall permissions
+
+It would be most advisable to use [VS Code](https://code.visualstudio.com/docs/datascience/jupyter-notebooks) to run the notebook.
 
 ### Opening the notebook 
 
