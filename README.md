@@ -49,8 +49,10 @@ Once you’ve entered your specific folder with Windows Explorer, you can simply
 
 NOTE: If you’re using Anaconda, you may have to type activate conda to switch to Anaconda Prompt within Command Prompt. Additionally, if you receive an error involving zqm.h, you’ll need to add the following folders to your PATH environment variable:
 
-``` C:\Users\***\Anaconda3\Lib\site-packages\zmq
-C:\Users\***\Anaconda3\Library\bin ```
+``` 
+C:\Users\***\Anaconda3\Lib\site-packages\zmq
+C:\Users\***\Anaconda3\Library\bin 
+```
 
 
 
