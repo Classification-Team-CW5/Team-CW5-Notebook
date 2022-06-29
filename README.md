@@ -1,6 +1,20 @@
 # Twitter-Sentiment-Analysis
 It is a Natural Language Processing Problem where Sentiment Analysis is done by Classifying the tweets that show a belief in climate change from tweets that do not. We do this by using machine learning models for classification,  text mining, text analysis, data analysis and data visualization. These conseps are thouroughly explored and layed out in detail in the [notebook](https://github.com/Classification-Team-CW5/Team-CW5-Notebook/blob/main/Climate_Change_Beliefs_Analysis_(1).ipynb) above.
 
+## Table of contents
+
+1. [Introduction](https://github.com/Classification-Team-CW5/Team-CW5-Notebook#introduction)
+2. [Understand the Problem Statement](https://github.com/Classification-Team-CW5/Team-CW5-Notebook#understand-the-problem-statement)
+3. [Running the notebook](https://github.com/Classification-Team-CW5/Team-CW5-Notebook#running-the-notebook)
+  3.1. [Dependencies](https://github.com/Classification-Team-CW5/Team-CW5-Notebook#dependencies)
+  3.2. [Opening the notebook](https://github.com/Classification-Team-CW5/Team-CW5-Notebook#opening-the-notebook)
+    3.2.1. [Windows File Explorer + Command Prompt](https://github.com/Classification-Team-CW5/Team-CW5-Notebook#1-windows-file-explorer--command-prompt)
+    3.2.2. [Google Colab](https://github.com/Classification-Team-CW5/Team-CW5-Notebook/blob/main/README.md#2-google-colab)
+    3.2.3. [VS Code](https://github.com/Classification-Team-CW5/Team-CW5-Notebook/blob/main/README.md#3-vs-code)
+4. [Tweets Preprocessing and Cleaning](https://github.com/Classification-Team-CW5/Team-CW5-Notebook/blob/main/README.md#tweets-preprocessing-and-cleaning)
+5. [Story Generation and Visualization from Tweets](https://github.com/Classification-Team-CW5/Team-CW5-Notebook/blob/main/README.md#story-generation-and-visualization-from-tweets)
+6. [End Notes](https://github.com/Classification-Team-CW5/Team-CW5-Notebook/blob/main/README.md#end-notes)
+
 ## Introduction
 
 Natural Language Processing (NLP) is a hotbed of research in data science these days and one of the most common applications of NLP is sentiment analysis. From opinion polls to creating entire marketing strategies, this domain has completely reshaped the way businesses work, which is why this is an area every data scientist must be familiar with.
@@ -187,4 +201,6 @@ Before we begin exploration, we must think and ask questions related to the data
 
 ## End Notes
 
-We learned how to approach a sentiment analysis problem. We started with preprocessing and exploration of data. Then we extracted features from the cleaned text using Bag-of-Words and TF-IDF. Finally, we were able to build a couple of models using both the feature sets to classify the tweets.
+We learned how to approach a sentiment analysis problem. We started with preprocessing and exploration of data. Then we extracted features from the cleaned text using Bag-of-Words and TF-IDF. Finally, we were able to build a couple of models using both the feature sets to classify the tweets. for more in-depth detail about how we conducted our analysis please view the [notebook](https://github.com/Classification-Team-CW5/Team-CW5-Notebook/blob/main/Climate_Change_Beliefs_Analysis_(1).ipynb) located in this repo 
+
+[Back to the top](https://github.com/Classification-Team-CW5/Team-CW5-Notebook/blob/main/README.md#twitter-sentiment-analysis)
