@@ -61,18 +61,70 @@ NOTE: If you’re using Anaconda, you may have to type activate conda to switch 
 C:\Users\***\Anaconda3\Lib\site-packages\zmq
 C:\Users\***\Anaconda3\Library\bin 
 ```
-#### 2. VS Code 
-*Setting up your environment*
+#### 4. Google Colab
+
+[Google Colaboratory](http://colab.research.google.com) is designed to integrate cleanly with GitHub, allowing both loading notebooks from github and saving notebooks to github.
+
+**Loading Private Notebooks**
+
+Loading a notebook from a private GitHub repository is possible, but requires an additional step to allow Colab to access your files.
+Do the following:
+
+1. Navigate to http://colab.research.google.com/github.
+2. Click the "Include Private Repos" checkbox.
+3. In the popup window, sign-in to your Github account and authorize Colab to read the private files.
+4. Your private repositories and notebooks will now be available via the github navigation pane.
+
+**Saving Notebooks To GitHub or Drive**
+
+Any time you open a GitHub hosted notebook in Colab, it opens a new editable view of the notebook. You can run and modify the notebook without worrying about overwriting the source.
+
+If you would like to save your changes from within Colab, you can use the File menu to save the modified notebook either to Google Drive or back to GitHub. Choose **File→Save a copy in Drive** or **File→Save a copy to GitHub** and follow the resulting prompts. To save a Colab notebook to GitHub requires giving Colab permission to push the commit to your repository
+
+**Open In Colab Badge**
+
+Anybody can open a copy of any github-hosted notebook within Colab. To make it easier to give people access to live views of GitHub-hosted notebooks,
+colab provides a [shields.io](http://shields.io/)-style badge, which appears as follows:
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/googlecolab/colabtools/blob/master/notebooks/colab-github-demo.ipynb)
+
+#### 3. VS Code 
+
+**Connect to a remote Jupyter server**
+
+You can offload intensive computation in a Jupyter Notebook to other computers by connecting to a remote Jupyter server. Once connected, code cells run on the remote server rather than the local computer.
+
+To connect to a remote Jupyter server:
+
+1. Select the Jupyter Server: local button in the global Status bar or run the Jupyter: Specify local or remote Jupyter server for connections command from the Command Palette (Ctrl+Shift+P).
+
+![specify-remote](https://user-images.githubusercontent.com/94076113/176407666-5d8032e5-df71-4b17-acb9-83a7d43f613e.png)
+
+
+2. When prompted to Pick how to connect to Jupyter, select Existing: Specify the URI of an existing server.
+
+![connect-to-existing](https://user-images.githubusercontent.com/94076113/176407976-4b8fecae-8715-4ec6-8703-cfcf14675e64.png)
+
+3. When prompted to Enter the URI of a Jupyter server, provide the server's URI (hostname) with the authentication token included with a ?token= URL parameter. (If you start the server in the VS Code terminal with an authentication token enabled, the URL with the token typically appears in the terminal output from where you can copy it.) Alternatively, you can specify a username and password after providing the URI.
+
+![enter-url-auth-token](https://user-images.githubusercontent.com/94076113/176408240-8bc573ed-d6c4-4099-870a-8f3664547c3f.png)
+
+> Note: For added security, Microsoft recommends configuring your Jupyter server with security precautions such as SSL and token support. This helps ensure that requests sent to the Jupyter server are authenticated and connections to the remote server are encrypted. For guidance about securing a notebook server, refer to the Jupyter documentation.
+
+**Setting up your environment**
+
 To work with Python in Jupyter Notebooks, you must activate an Anaconda environment in VS Code, or another Python environment in which you've installed the Jupyter package. To select an environment, use the Python: Select Interpreter command from the Command Palette (Ctrl+Shift+P).
 
 Once the appropriate environment is activated, you can create and open a Jupyter Notebook, connect to a remote Jupyter server for running code cells, and export a Jupyter Notebook as a Python file.
 
-*Workspace Trust*
+**Workspace Trust**
+
 When getting started with Notebooks, you'll want to make sure that you are working in a trusted workspace. Harmful code can be embedded in notebooks and the Workspace Trust feature allows you to indicate which folders and their contents should allow or restrict automatic code execution.
 
 If you attempt to open a notebook when VS Code is in an untrusted workspace running Restricted Mode, you will not be able to execute cells and rich outputs will be hidden.
 
-*Create or open a Jupyter Notebook*
+**Create or open a Jupyter Notebook**
+
 You can create a Jupyter Notebook by running the Jupyter: Create New Jupyter Notebook command from the Command Palette (Ctrl+Shift+P) or by creating a new .ipynb file in your workspace.
 
 ![native-code-cells-01](https://user-images.githubusercontent.com/94076113/176405804-a00e8a41-5a34-4ba7-b892-17a15274943c.png)
@@ -83,7 +135,8 @@ After selecting a kernel, the language picker located in the bottom right of eac
 
 ![native-language-picker-01](https://user-images.githubusercontent.com/94076113/176405978-2b1be00e-718f-4d37-96e7-56034cbd4534.png)
 
-*Running cells*
+**Running cells**
+
 Once you have a Notebook, you can run a code cell using the Run icon to the left of the cell and the output will appear directly below the code cell.
 
 You can also use keyboard shortcuts to run code. When in command or edit mode, use Ctrl+Enter to run the current cell or Shift+Enter to run the current cell and advance to the next.
