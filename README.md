@@ -21,7 +21,7 @@ With this context, EDSA is challenging you during the Classification Sprint with
 
 Providing an accurate and robust solution to this task gives companies access to a broad base of consumer sentiment, spanning multiple demographic and geographic categories - thus increasing their insights and informing future marketing strategies.
 
-Note: The evaluation metric from this practice problem is F1-Score.
+>Note: The evaluation metric for this practice problem is F1-Score. [More infromation about the f1 score here](https://www.educative.io/answers/what-is-the-f1-score)
 
 ## Running the notebook
 
