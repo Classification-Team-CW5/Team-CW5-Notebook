@@ -1,5 +1,5 @@
 # Twitter-Sentiment-Analysis
-It is a Natural Language Processing Problem where Sentiment Analysis is done by Classifying the tweets that show a belief in climate change  from tweets that do not by machine learning models for classification,  text mining, text analysis, data analysis and data visualization
+It is a Natural Language Processing Problem where Sentiment Analysis is done by Classifying the tweets that show a belief in climate change from tweets that do not. We do this by using machine learning models for classification,  text mining, text analysis, data analysis and data visualization. These conseps are thouroughly explored and layed out in detail in the [notebook](https://github.com/Classification-Team-CW5/Team-CW5-Notebook/blob/main/Climate_Change_Beliefs_Analysis_(1).ipynb) above.
 
 ## Introduction
 
@@ -61,7 +61,38 @@ NOTE: If you’re using Anaconda, you may have to type activate conda to switch 
 C:\Users\***\Anaconda3\Lib\site-packages\zmq
 C:\Users\***\Anaconda3\Library\bin 
 ```
+#### 2. VS Code 
+*Setting up your environment*
+To work with Python in Jupyter Notebooks, you must activate an Anaconda environment in VS Code, or another Python environment in which you've installed the Jupyter package. To select an environment, use the Python: Select Interpreter command from the Command Palette (Ctrl+Shift+P).
 
+Once the appropriate environment is activated, you can create and open a Jupyter Notebook, connect to a remote Jupyter server for running code cells, and export a Jupyter Notebook as a Python file.
+
+*Workspace Trust*
+When getting started with Notebooks, you'll want to make sure that you are working in a trusted workspace. Harmful code can be embedded in notebooks and the Workspace Trust feature allows you to indicate which folders and their contents should allow or restrict automatic code execution.
+
+If you attempt to open a notebook when VS Code is in an untrusted workspace running Restricted Mode, you will not be able to execute cells and rich outputs will be hidden.
+
+*Create or open a Jupyter Notebook*
+You can create a Jupyter Notebook by running the Jupyter: Create New Jupyter Notebook command from the Command Palette (Ctrl+Shift+P) or by creating a new .ipynb file in your workspace.
+
+![native-code-cells-01](https://user-images.githubusercontent.com/94076113/176405804-a00e8a41-5a34-4ba7-b892-17a15274943c.png)
+
+![native-kernel-picker](https://user-images.githubusercontent.com/94076113/176405888-388e13f4-c13d-496d-a7a0-7a37a08cf7de.png)
+
+After selecting a kernel, the language picker located in the bottom right of each code cell will automatically update to the language supported by the kernel.
+
+![native-language-picker-01](https://user-images.githubusercontent.com/94076113/176405978-2b1be00e-718f-4d37-96e7-56034cbd4534.png)
+
+*Running cells*
+Once you have a Notebook, you can run a code cell using the Run icon to the left of the cell and the output will appear directly below the code cell.
+
+You can also use keyboard shortcuts to run code. When in command or edit mode, use Ctrl+Enter to run the current cell or Shift+Enter to run the current cell and advance to the next.
+
+![native-code-cells-03](https://user-images.githubusercontent.com/94076113/176406131-6d6a7e05-6620-49c9-bfc7-73780f1c2526.png)
+
+You can run multiple cells by selecting Run All, Run All Above, or Run All Below.
+
+![native-code-runs](https://user-images.githubusercontent.com/94076113/176406290-d0af205b-766c-4947-9d4e-b6d0e798383b.png)
 
 
 ## Tweets Preprocessing and Cleaning
@@ -82,9 +113,9 @@ Before we begin exploration, we must think and ask questions related to the data
 
 - What are the most common words in the entire dataset?
 - What are the most common words in the dataset for negative and positive tweets, respectively?
-- How many hashtags are there in a tweet?
 - Which trends are associated with my dataset?
 - Which trends are associated with either of the sentiments? Are they compatible with the sentiments?
+- What is the distribution of the dataset?
 
 ## End Notes
 
