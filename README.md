@@ -61,7 +61,7 @@ NOTE: If you’re using Anaconda, you may have to type activate conda to switch 
 C:\Users\***\Anaconda3\Lib\site-packages\zmq
 C:\Users\***\Anaconda3\Library\bin 
 ```
-#### 4. Google Colab
+#### 2. Google Colab
 
 [Google Colaboratory](http://colab.research.google.com) is designed to integrate cleanly with GitHub, allowing both loading notebooks from github and saving notebooks to github.
 
