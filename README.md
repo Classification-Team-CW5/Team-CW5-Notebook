@@ -156,7 +156,22 @@ The preprocessing of the text data is an essential step as it makes the raw text
 
 In one of the later stages, we will be extracting numeric features from our Twitter text data. This feature space is created using all the unique words present in the entire data. So, if we preprocess our data well, then we would be able to get a better quality feature space.
 
-Let’s first read our data and load the necessary libraries.
+>Please remember that in the notebook the data is accesed directly from Github and thus when running the notebook you need to ensure that your enviroment either has access to connect to github without firewall intrusion or the remote enviroment you are working on has the ability to connect to the remote files 
+
+**The code that casues the above to be so is the following** 
+
+```python:
+# Load train and test datasets
+train = pd.read_csv("https://raw.githubusercontent.com/Classification-Team-CW5/Classification-Data/main/train.csv")
+test = pd.read_csv("https://raw.githubusercontent.com/Classification-Team-CW5/Classification-Data/main/test_with_no_labels.csv")
+
+```
+> Alternative if downloaded locally 
+```python:
+# Load train and test datasets
+train = pd.read_csv("train.csv")
+test = pd.read_csv("test_with_no_labels.csv")
+```
 
 ## Story Generation and Visualization from Tweets
 
