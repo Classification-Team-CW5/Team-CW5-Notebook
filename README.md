@@ -102,6 +102,8 @@ colab provides a [shields.io](http://shields.io/)-style badge, which appears as 
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/googlecolab/colabtools/blob/master/notebooks/colab-github-demo.ipynb)
 
+>Link to our notebook: `https://github.com/Classification-Team-CW5/Team-CW5-Notebook/blob/main/Climate_Change_Beliefs_Analysis_(1).ipynb`
+
 #### 3. VS Code 
 
 **Connect to a remote Jupyter server**
